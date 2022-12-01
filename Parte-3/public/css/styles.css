@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --Amarillo: #eac926;
+  --Azul: #03264c;
+  --Celeste: #1259c3;
+  --Gris-oscuro: #666;
+  --Gris-claro: #ebebeb;
+  --Verde: #39b54a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: var(--Amarillo);
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 12px;
+}
+
+.compra {
+  font-size: 16px;
+  text-align: center;
+}
+
+.titulares {
+  font-size: 24px;
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descuentos {
+  font-size: 16px;
+}
+
+.descripciones {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#barra-busqueda {
+  background-color: var(--Gris-claro);
+  color: var(--Gris-oscuro);
+  padding: 5px;
+  /* width: 300px; */
+  margin-right: 20%;
+  font-size: 20px;
+}
+
+.busqueda {
+  background-color: var(--Gris-claro);
+  padding: 5px;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.burger-menu {
+  background-color: var(--Celeste);
+  color: var(--Gris-claro);
+  border-radius: 10px;
+  font-size: large;
+  text-align: center;
+  width: 40px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+/*---------------- footer ------------------ */
+.footer-icon {
+  text-align: center;
+  font-size: 2em;
+  color: var(--Celeste);
+  margin-top: 20px
+}
+
+.footer-text {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#copyright {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
